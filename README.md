@@ -54,7 +54,7 @@ To see the fundamental background of the project visit the [Wiki](https://github
 The console will perform the following tasks:
 
 * create a new object
-* retrive an object from a file
+* retrieve an object from a file
 * do operations on objects
 * destroy an object
 
@@ -285,27 +285,7 @@ e952b772-80a5-41e9-b728-6bc4dc5c21b4
 
 > *Updates an instance based on the class name, id, and kwargs passed.*
 > *Update the file.json*
-```
-## Authors
-<details>
-    <summary>Godswill Kalu</summary>
-    <summary>TIESSIA BOLA</summary>
-    <ul>
-    <li><a href="https://www.github.com/lordwill">Github</a></li>
-    <li><a href="mailto:messagelordwill@gmail.com">e-mail</a></li>
-    <li><a href="https://www.github.com/Adamsbola">Github</a></li>
-    <li><a href="mailto:adamadu52@gmail.com">e-mail</a></li>
-    </ul>
-</details>
 
-## How to add Author file
-`Bash script for generating the list of authors in git repo`
-```
-#!/bin/sh
-
-git shortlog -se \
-  | perl -spe 's/^\s+\d+\s+//' \
-  | sed -e '/^CommitSyncScript.*$/d' \
   ---
 
 ## Authors
